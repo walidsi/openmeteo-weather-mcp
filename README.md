@@ -4,7 +4,12 @@ A simple MCP server that provides hourly weather forecasts using the Open-meteo 
 
 ## Setup
 
-1. Install dependencies using `uv`:
+1. Download the source code:
+```bash
+git clone https://github.com/walidsi/openmeteo-weather-mcp.git
+```
+
+2. Install dependencies using `uv`:
 ```bash
 uv venv
 uv sync
