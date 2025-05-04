@@ -1,6 +1,6 @@
 # MCP Weather Server
 
-A simple MCP server that provides hourly weather forecasts using the AccuWeather API.
+A simple MCP server that provides hourly weather forecasts using the Open-meteo API.
 
 ## Setup
 
@@ -17,21 +17,14 @@ uv sync
 {
     "mcpServers": {
         "open_meteo_weather": {
-            
+            "command": "uv",
+            "args": [
+                "--directory",
+                "path/to/openmeteo-weather-mcp/",
+                "run",
+                "openmeteo_weather/openmeteo_weather.py"
+            ] 
         }
     }
 }
 ```
-
-## API Usage
-
-### Get 7-dy Weather Forecast
-
-Response:
-```json
-{
-    
-}
-```
-
-## The API provides:
