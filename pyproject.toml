@@ -3,7 +3,7 @@ name = "openmeteo-weather-mcp"
 version = "0.1.0"
 requires-python = ">=3.13"
 description = "Weather forecast tool for MCP"
-authors = []
+authors = ["Walid Ismail"]
 dependencies = [
     "fastmcp",
     "python-dotenv",
